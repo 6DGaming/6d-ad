@@ -1,0 +1,598 @@
+<html>
+  <head>
+    <meta name="baidu-analysis-id" content="2u30301d353e3438" />
+    <meta charset="utf-8" />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <!-- Google tag (gtag.js) --> 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K572DK2P0J"></script> 
+    <script> 
+      window.dataLayer = window.dataLayer || []; 
+      function gtag(){
+        dataLayer.push(arguments);
+      } 
+      gtag('js', new Date()); 
+      gtag('config', 'G-K572DK2P0J');
+      // gtag = window.gtag();
+    </script>
+    <style>
+        *,body {
+          margin: 0;
+          padding: 0;
+        }
+        body{background: #1F1F1F;}
+        .landing-game {
+            width: 100%;
+            background-color: #1F1F1F;
+        }
+        .landing-game a {
+          text-decoration: none;
+        }
+        .game-content {
+            padding-left: 4%;
+            padding-right: 4%;
+        }
+        .cont-label {
+            height: 80px;
+            text-align: center;
+            border: 1px solid #949494;
+            border-top: 0;
+            font-family: 'PingFang SC';
+            font-size: 30px;
+            line-height: 80px;
+            color: #FFDC00;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+  /*          font-weight: 300;*/
+        }
+        .title {
+            font-family: 'PingFang SC';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            color: #FFFFFF;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+        .game-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .game-list .game-item {
+            margin-right: 1%;
+            width: 32%;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        .game-list .game-item2{
+            width: 36%;
+            margin:10px;
+        }
+        .game-list .game-item:nth-child(3n) {
+  /*          margin-right: 0;*/
+        }
+        .game-list .game-item img {
+            width: 100%;
+            margin-bottom: 5px;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+        .game-list .game-item span {
+            font-weight: 500;
+            font-size: 30px;
+            color: #FFFFFF;
+        }
+        .list1 {
+            display: flex;
+        }
+        .list1 .list1-item {
+            margin-right: 10px;
+            width: 33%;
+            text-align: center;
+            border: 1px solid #949494;
+            margin-bottom: 10px;
+        }
+        .list1 .list1-item:last-child {
+            margin-right: 0;
+        }
+        .list1 .list1-item .label {
+            height: 76px;
+            line-height: 76px;
+            background-color: red;
+            font-family: 'PingFang SC';
+            font-weight: 600;
+            font-size: 32px;
+            color: #000000;
+            display: flex;
+            justify-content: center;
+        }
+        .list1 .list1-item .text {
+            font-family: 'PingFang SC';
+            color: #FFFFFF;
+            font-size: 26px;
+            line-height: 35px;
+            text-align: center;
+            padding: 10px;
+            font-weight: 600;
+        }
+        .img-box {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            border: 1px solid #949494;
+            padding-left: 10px;
+            padding-right: 22px;
+            margin-bottom: 10px;
+        }
+        .img-box .img {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 29px 0;
+        }
+        .img-box .img img {
+            height: 20px;
+        }
+        .img-box .img img:first-child {
+            margin-bottom: 10px;
+        }
+        .img-box .card {
+            display: flex;
+            position: relative;
+            left: 40px;
+        }
+        .img-box .card img {
+            height: 80px;
+            position: relative;
+        }
+        .img-box .card img:nth-child(2) {
+            left: -15px;
+        }
+        .img-box .card img:nth-child(3) {
+            left: -30px;
+        }
+        .img-box .card img:nth-child(4) {
+            left: -45px;
+        }
+        .img-box .btn {
+            width: 144px;
+            height: 46px;
+            font-size: 30px;
+            line-height: 46px;
+            text-align: center;
+            background-color: #FF1C1C;
+            border-radius: 11px;
+            color: #FFFFFF;
+        }
+        .text-box {
+            border: 1px solid #FFDC00;
+            margin-bottom: 60px;
+  /*          height: 80px;*/
+            padding: 20px 0;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .text-box p {
+            text-align: center;
+            font-family: 'PingFang SC';
+  /*          font-weight: 600;*/
+            font-size: 26px;
+            line-height: 38px;
+            color: #efd324;
+            margin-bottom: 0;
+        }
+        .tips {
+            font-weight: 600;
+            color: #FFFFFF;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 26px;
+        }
+        .sub-tips {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+            font-size: 30px;
+        }
+        .sub-tips img {
+            height: 30px;
+            margin-left: 10px;
+            margin-right: 10px;
+            position: relative;
+            top: 8px;
+        }
+        .sub-tips span {
+            font-weight: 500;
+            font-size: 32px;
+            color: #FFFFFF;
+        }
+        .game-list3 {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+        .game-list3 iframe{border: 0 none;margin: 0 auto;padding: 0;}
+        .game-list3 .game-item {
+            margin-right: 8px;
+            width: 23.1%;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        .game-list3 .game-item:nth-child(4n) {
+            margin-right: 0;
+        }
+        .game-list3 .game-item img {
+            width: 100%;
+            margin-bottom: 5px;
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+        .game-list3 .game-item span {
+            font-weight: 500;
+            font-size: 17px;
+            color: #FFFFFF;
+        }
+        .text-box1 {
+            border: 1px solid #949494;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        .text-box1 p {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 600;
+            color: #FFDC00;
+            margin-bottom: 0;
+            border-bottom: 1px solid #949494;
+            padding:15px 0;
+        }
+        .text-box1 p .light {
+            color: #FF4F4F;
+        }
+        .text-box1 img {
+            height: 26px;
+        }
+        .text-box1 .contact {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-bottom: 1px solid #949494;
+        }
+        .text-box1 .contact p{
+          border: 0 none;
+        }
+        .text-box1 .contact .mr5 {
+            margin-right: 5px;
+        }
+        .text-box1 .contact .ml5 {
+            margin-left: 5px;
+        }
+        .text-box1 .contact p {
+            margin-left: 8px;
+            margin-right: 8px;
+            font-weight: 600;
+            color: #FFDC00;
+        }
+        .text-box1 .contact p .blue {
+            color: #41B5FD;
+        }
+        .back-btn {
+            font-family: 'PingFang SC';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 28px;
+            text-align: center;
+            color: #FFFFFF;
+            border-top: 1px solid #FFDC00;
+            background-color: #1F1F1F;
+            height: 80px;
+            line-height: 80px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            opacity: 0.9;
+        }
+        .back-btn a{display: block;width: 100%; height: 80px; color: #fff; text-decoration: none;}
+    </style>
+    <title></title>
+  </head>
+  <body
+    oncontextmenu="return false"
+    onselectstart="return false"
+    ondragstart="return false"
+    onbeforecopy="return false"
+    oncopy="document.selection.empty()"
+    onselect="document.selection.empty()"
+  >
+    <div id="app">
+      <div class="landing-game">
+        <div class="game-content">
+          <div class="cont-label">
+            欢迎各位老哥光临，本站提供各厂商模拟器，永久域名PPPG.me
+          </div>
+          <div class="title">热门游戏</div>
+          <div class="game-list">
+            <div
+              class="game-item"
+              v-for="(item, index) in gameList1"
+              :key="index"
+            >
+              <!-- <a :href="item.src" :target="item.is=='_blank'?'_blank':''" v-if="item.ga" @click="n(item.ga)"> -->
+                <a :href="item.src" :target="item.is=='_blank'?'_blank':''">
+                <img :src="`./img/game/${item.img}.png`" alt="" />
+                <span>{{ item.label }}</span>
+              </a>
+            </div>
+          </div>
+          <div class="list1">
+            <!-- <div class="list1-item" v-for="(item, index) in list1" :key="index" @click="handleClick(item.src)"> -->
+            <div class="list1-item" v-for="(item, index) in list1" :key="index">
+              <span v-if="item.is" @click="handleDownload">
+                <p class="label">{{ item.label }}</p>
+                <p class="text">{{ item.text }}<br />{{ item.text2 }}</p>
+              </span>
+              <a :href="item.src" v-else>
+                <p class="label">{{ item.label }}</p>
+                <p class="text">{{ item.text }}<br />{{ item.text2 }}</p>
+              </a>
+            </div>
+          </div>
+          <div class="img-box" @click="handleDownload">
+            
+              <div class="img">
+                <img src="./img/game/text1.png" alt="" />
+                <img src="./img/game/text2.png" alt="" />
+              </div>
+              <div class="card">
+                <img src="./img/game/card1.png" alt="" />
+                <img src="./img/game/card2.png" alt="" />
+                <img src="./img/game/card3.png" alt="" />
+                <img src="./img/game/card4.png" alt="" />
+              </div>
+              <!-- <div class="btn" @click="handleDownload">APP下载</div> -->
+              <div class="btn">APP下载</div>
+            
+          </div>
+          <div class="text-box">
+            <p>所推荐平台只保证不黑款，输赢各凭本事，见好就收，不要沉迷</p>
+            <p>
+              建议使用数字钱包或者USDT 进出方便，减少卡流水，以防流水异常冻卡
+            </p>
+          </div>
+          <div class="tips">
+            如遇到加载失败，多加载几次，网络不好就换时间再玩
+          </div>
+          <div class="sub-tips">
+            <img src="./img/game/down.png" alt="" />
+            <img src="./img/game/down.png" alt="" />
+            <img src="./img/game/down.png" alt="" />
+            <span>PG试玩列表</span>
+            <img src="./img/game/down.png" alt="" />
+            <img src="./img/game/down.png" alt="" />
+            <img src="./img/game/down.png" alt="" />
+          </div>
+          <div class="game-list">
+            <div
+              class="game-item game-item2"
+              v-for="(item, index) in gameList2"
+              :key="index"
+            >
+              <a :href="item.src">
+                <img :src="`./img/game/${item.img}.png`" alt="" />
+                <span>{{ item.label }}</span>
+              </a>
+            </div>
+          </div>
+          <div class="game-list3">
+            <iframe
+              src="index11.html?id=600"
+              name="520"
+              width="100%"
+              height="1000"
+              id="520"
+            >
+            </iframe>
+          </div>
+          <div class="text-box1">
+            <p>TG 需要翻墙 ，需要挂梯子的老哥 请下载快连</p>
+            <p>
+              <span class="light">再次提醒：</span
+              >注意自身经济实力，见好就收，不要沉迷，不要沉迷！
+            </p>
+            <div class="contact">
+              <img src="./img/game/right.png" alt="" class="mr5" />
+              <img src="./img/game/right.png" alt="" />
+              <p>交流群申请 <a href="https://t.me/pppg_me_01" target="_blank"><span class="blue">点击进入</span></a></p>
+              <img src="./img/game/left.png" alt="" />
+              <img src="./img/game/left.png" alt="" class="ml5" />
+            </div>
+            <div class="contact">
+              <p>商务合作&nbsp;&nbsp;<a href="https://t.me/Anna147258" target="_blank"><span class="blue">这里</span></a></p>
+              <img src="./img/game/right.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="back-btn"><a href="javascript:history.back(-1)">返回首页</a></div> -->
+    </div>
+    <script>
+      const { createApp } = Vue
+
+      createApp({
+        data() {
+          return {
+            gameList1: [
+              {
+                label: '麻将糊了2',
+                img: 'majiang',
+                src: 'https://m.pgsoft-games.com/74/index.html?language=zh&bet_type=1&operator_token=ca7094186b309ee149c55c8822e7ecf2&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com&btt=2&__refer=m.pg-redirect.net&or=static.pgsoft-games.com',
+                is:'',
+                ga:''
+              },
+              {
+                label: '李逵劈鱼',
+                img: 'likui',
+                src: 'https://api.gcpadi.com/api/trial?server_type=1048&return_type=1',
+                is:'',
+                ga:''
+              },
+              {
+                label: 'Hash 28',
+                img: 'hash28',
+                src: 'https://dapp.6d.games/zh_CN?id=12&range=10---1000&type=1&from=web&' + this.b(),
+                is: '_blank',
+                ga: ['send', 'event', 'link', 'click', 'hash28']
+              },
+              {
+                label: '单手跳高高',
+                img: 'danshou',
+                src: 'https://h5c.cqgame.games/h5/105/?language=zh-cn&token=guest123',
+                is:'',
+                ga:''
+              },
+              {
+                label: '跳高高2',
+                img: 'tiaogaogao',
+                src: 'https://h5c.cqgame.games/h5/179/?language=zh-cn&token=guest123',
+                is:'',
+                ga:''
+              },
+              {
+                label: '3D炸金花',
+                img: '3d',
+                src: 'https://api.gcpadi.com/api/trial?server_type=1303&return_type=1',
+                is:'',
+                ga:''
+              }
+            ],
+            list1: [
+              {
+                label: '银泰国际',
+                text: '老牌直营！主打各系列电子种类全！占领电子市场80%的玩家，电子专业户首选！25s.cc',
+                text2: '',
+                src: 'https://969x.cc/120297/',
+                is:'',
+                ga:''
+              },
+              { 
+                label: '华体会', 
+                text: '100+100', 
+                text2: '英超曼联赞助商',
+                src: 'https://www.i4xfb.com:9663/register?i_code=8486674',
+                is:'',
+                ga:''
+              },
+              {
+                label: '6D Hash 哈希',
+                text: '注册送36 TRX，游戏结果由3个Hash之和决定，公平公正公开',
+                text2: '',
+                src: 'https://m.6d01.vip/',
+                is:'_blank',  
+                ga:['send', 'event', 'link', 'click', '6DHash']
+              }
+            ],
+            gameList2: [
+              // {
+              //   label: 'PP电子试玩入口',
+              //   img: 'pp',
+              //   src: 'pp/Untitled-2.html'
+              // },
+              {
+                label: 'PG电子试玩入口',
+                img: 'pg',
+                src: 'index11.html?id=600'
+              },
+              // {
+              //   label: 'bbin电子试玩入口',
+              //   img: 'bbin',
+              //   src: 'Untitled-1.html'
+              // },
+              {
+                label: 'CQ9电子试玩入口',
+                img: 'cq9',
+                src: 'https://demo.cqgame.games/'
+              },
+              // {
+              //   label: 'KA捕鱼试玩入口',
+              //   img: 'kabuyu',
+              //   src: ''
+              // },
+              // {
+              //   label: 'bbin捕鱼试玩入口',
+              //   img: 'bbinbuyu',
+              //   src: 'Untitled-1.html'
+              // },
+              {
+                label: '开元棋牌试玩入口',
+                img: 'kaiyuan',
+                src: 'https://yl.ejdj12.com'
+              },
+              {
+                label: '百盛棋牌试玩入口',
+                img: 'baisheng',
+                src: 'https://api.gcpadi.com/api/trial'
+              }
+            ],
+            gameList3: [
+              {
+                label: '麻将糊了',
+                img: 'majianghule',
+                src: ''
+              },
+              {
+                label: '麻将糊了',
+                img: 'majianghule',
+                src: ''
+              },
+              {
+                label: '麻将糊了',
+                img: 'majianghule',
+                src: ''
+              },
+              {
+                label: '麻将糊了',
+                img: 'majianghule',
+                src: ''
+              },
+              {
+                label: '麻将糊了',
+                img: 'majianghule',
+                src: ''
+              }
+            ],
+            iosLink: 'https://cdn.dowsvip.com/app/6dGame'  + '?' + this.b(),
+            andLink: 'https://download.6d.games/6d01vip/6d01vip.apk'  + '?' + this.b(),
+            uk: 'https://m.6d01.uk'  + this.b(),
+            vip: 'https://m.6d01.vip'  + this.b()
+          }
+        },
+        methods: {
+          handleDownload() {
+            // const u = navigator.userAgent;
+            // const isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+            this.n(['send', 'event', 'link', 'click', 'AppDownLoad'],)
+            window.open(this.b().length > 1 ? this.uk : this.vip)
+          },
+          handleClick(src) {
+            src && window.open(src)
+          },
+          b() {
+            return window.location.search || ''
+          },
+          n( src) {
+            // debugger
+            // window.gtag(src);
+            // gtat('send', 'event', '视频', '播放', 'hash28')
+            // gtat('send', 'event', '视频', '播放', '6dhash')
+            // gtat('send', 'event', '视频', '播放', 'appdownLoad')
+          }
+        }
+      }).mount('#app')
+    </script>
+  </body>
+</html>

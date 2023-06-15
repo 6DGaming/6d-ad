@@ -1,0 +1,727 @@
+{
+    "header": [
+        " *   ",
+        " *   如非需要调试，本文件可删除",
+        " *   非专业人员可将本文件删除",
+        " *   详细介绍请参考: https://bazhan.wang/faq#INFO-JSON",
+        " *   "
+    ],
+    "resources": [
+        {
+            "url": "https://pgpg8.com/",
+            "path": "index.html",
+            "saved": true,
+            "size": 6643,
+            "children": [
+                {
+                    "url": "https://pgpg8.com/nav_common_logo_white2x.063bde3.png",
+                    "path": "img/nav_common_logo_white2x.063bde3.png",
+                    "saved": true,
+                    "size": 5498
+                },
+                {
+                    "url": "https://pgpg8.com/pg_casino_zh-cn_156575394367.jpg",
+                    "saved": false
+                },
+                {
+                    "url": "https://pgpg8.com/106.png",
+                    "saved": false
+                },
+                {
+                    "url": "https://pgpg8.com/222.gif",
+                    "saved": false
+                },
+                {
+                    "url": "https://pgpg8.com/111.gif",
+                    "saved": false
+                },
+                {
+                    "url": "https://pgpg8.com/100.png",
+                    "saved": false
+                },
+                {
+                    "url": "https://pgpg8.com/222.gif",
+                    "saved": false
+                },
+                {
+                    "url": "https://pgpg8.com/111.gif",
+                    "saved": false
+                },
+                {
+                    "url": "https://pgpg8.com/101.png",
+                    "saved": false
+                },
+                {
+                    "url": "https://pgpg8.com/222.gif",
+                    "saved": false
+                },
+                {
+                    "url": "https://pgpg8.com/111.gif",
+                    "saved": false
+                },
+                {
+                    "url": "https://pgpg8.com/index1.html",
+                    "path": "index1.html",
+                    "saved": true,
+                    "size": 44613,
+                    "children": [
+                        {
+                            "url": "https://pgpg8.com/1.png",
+                            "path": "img/1.png",
+                            "saved": true,
+                            "size": 6180
+                        },
+                        {
+                            "url": "https://pgpg8.com/2.png",
+                            "path": "img/2.png",
+                            "saved": true,
+                            "size": 6165
+                        },
+                        {
+                            "url": "https://pgpg8.com/1041.png",
+                            "path": "img/1041.png",
+                            "saved": true,
+                            "size": 44177
+                        },
+                        {
+                            "url": "https://pgpg8.com/2251.jpg",
+                            "path": "img/2251.jpeg",
+                            "saved": true,
+                            "size": 9617
+                        },
+                        {
+                            "url": "https://pgpg8.com/jqt.jpg",
+                            "path": "img/jqt.jpeg",
+                            "saved": true,
+                            "size": 8243
+                        },
+                        {
+                            "url": "https://pgpg8.com/21.png",
+                            "path": "img/21.png",
+                            "saved": true,
+                            "size": 5882
+                        },
+                        {
+                            "url": "https://pgpg8.com/4.png",
+                            "path": "img/4.png",
+                            "saved": true,
+                            "size": 5656
+                        },
+                        {
+                            "url": "https://pgpg8.com/22.png",
+                            "path": "img/22.png",
+                            "saved": true,
+                            "size": 5317
+                        },
+                        {
+                            "url": "https://pgpg8.com/5.png",
+                            "path": "img/5.png",
+                            "saved": true,
+                            "size": 4875
+                        },
+                        {
+                            "url": "https://pgpg8.com/23.png",
+                            "path": "img/23.png",
+                            "saved": true,
+                            "size": 6238
+                        },
+                        {
+                            "url": "https://pgpg8.com/6.png",
+                            "path": "img/6.png",
+                            "saved": true,
+                            "size": 5909
+                        },
+                        {
+                            "url": "https://pgpg8.com/24.png",
+                            "path": "img/24.png",
+                            "saved": true,
+                            "size": 5882
+                        },
+                        {
+                            "url": "https://pgpg8.com/7.png",
+                            "path": "img/7.png",
+                            "saved": true,
+                            "size": 5146
+                        },
+                        {
+                            "url": "https://pgpg8.com/25.png",
+                            "path": "img/25.png",
+                            "saved": true,
+                            "size": 5476
+                        },
+                        {
+                            "url": "https://pgpg8.com/8.png",
+                            "path": "img/8.png",
+                            "saved": true,
+                            "size": 5543
+                        },
+                        {
+                            "url": "https://pgpg8.com/26.png",
+                            "path": "img/26.png",
+                            "saved": true,
+                            "size": 5710
+                        },
+                        {
+                            "url": "https://pgpg8.com/9.png",
+                            "path": "img/9.png",
+                            "saved": true,
+                            "size": 5316
+                        },
+                        {
+                            "url": "https://pgpg8.com/27.png",
+                            "path": "img/27.png",
+                            "saved": true,
+                            "size": 4992
+                        },
+                        {
+                            "url": "https://pgpg8.com/10.png",
+                            "path": "img/10.png",
+                            "saved": true,
+                            "size": 5361
+                        },
+                        {
+                            "url": "https://pgpg8.com/13.png",
+                            "path": "img/13.png",
+                            "saved": true,
+                            "size": 5445
+                        },
+                        {
+                            "url": "https://pgpg8.com/11.png",
+                            "path": "img/11.png",
+                            "saved": true,
+                            "size": 6168
+                        },
+                        {
+                            "url": "https://pgpg8.com/14.png",
+                            "path": "img/14.png",
+                            "saved": true,
+                            "size": 6180
+                        },
+                        {
+                            "url": "https://pgpg8.com/12.png",
+                            "path": "img/12.png",
+                            "saved": true,
+                            "size": 5965
+                        },
+                        {
+                            "url": "https://pgpg8.com/15.png",
+                            "path": "img/15.png",
+                            "saved": true,
+                            "size": 6047
+                        },
+                        {
+                            "url": "https://pgpg8.com/16.png",
+                            "path": "img/16.png",
+                            "saved": true,
+                            "size": 5831
+                        },
+                        {
+                            "url": "https://pgpg8.com/17.png",
+                            "path": "img/17.png",
+                            "saved": true,
+                            "size": 6202
+                        },
+                        {
+                            "url": "https://pgpg8.com/18.png",
+                            "path": "img/18.png",
+                            "saved": true,
+                            "size": 5818
+                        },
+                        {
+                            "url": "https://pgpg8.com/29.png",
+                            "path": "img/29.png",
+                            "saved": true,
+                            "size": 4839
+                        },
+                        {
+                            "url": "https://pgpg8.com/28.png",
+                            "path": "img/28.png",
+                            "saved": true,
+                            "size": 5568
+                        },
+                        {
+                            "url": "https://pgpg8.com/30.png",
+                            "path": "img/30.png",
+                            "saved": true,
+                            "size": 6006
+                        },
+                        {
+                            "url": "https://pgpg8.com/31.png",
+                            "path": "img/31.png",
+                            "saved": true,
+                            "size": 5316
+                        },
+                        {
+                            "url": "https://pgpg8.com/32.png",
+                            "path": "img/32.png",
+                            "saved": true,
+                            "size": 5623
+                        },
+                        {
+                            "url": "https://pgpg8.com/33.png",
+                            "path": "img/33.png",
+                            "saved": true,
+                            "size": 4992
+                        },
+                        {
+                            "url": "https://pgpg8.com/34.png",
+                            "path": "img/34.png",
+                            "saved": true,
+                            "size": 5417
+                        },
+                        {
+                            "url": "https://pgpg8.com/35.png",
+                            "path": "img/35.png",
+                            "saved": true,
+                            "size": 5868
+                        },
+                        {
+                            "url": "https://pgpg8.com/36.png",
+                            "path": "img/36.png",
+                            "saved": true,
+                            "size": 5659
+                        },
+                        {
+                            "url": "https://pgpg8.com/37.png",
+                            "path": "img/37.png",
+                            "saved": true,
+                            "size": 6128
+                        },
+                        {
+                            "url": "https://pgpg8.com/38.png",
+                            "path": "img/38.png",
+                            "saved": true,
+                            "size": 6164
+                        },
+                        {
+                            "url": "https://pgpg8.com/39.png",
+                            "path": "img/39.png",
+                            "saved": true,
+                            "size": 5282
+                        },
+                        {
+                            "url": "https://pgpg8.com/40.png",
+                            "path": "img/40.png",
+                            "saved": true,
+                            "size": 5845
+                        },
+                        {
+                            "url": "https://pgpg8.com/41.png",
+                            "path": "img/41.png",
+                            "saved": true,
+                            "size": 5630
+                        },
+                        {
+                            "url": "https://pgpg8.com/42.png",
+                            "path": "img/42.png",
+                            "saved": true,
+                            "size": 6188
+                        },
+                        {
+                            "url": "https://pgpg8.com/43.png",
+                            "path": "img/43.png",
+                            "saved": true,
+                            "size": 5242
+                        },
+                        {
+                            "url": "https://pgpg8.com/44.png",
+                            "path": "img/44.png",
+                            "saved": true,
+                            "size": 5257
+                        },
+                        {
+                            "url": "https://pgpg8.com/45.png",
+                            "path": "img/45.png",
+                            "saved": true,
+                            "size": 5957
+                        },
+                        {
+                            "url": "https://pgpg8.com/46.png",
+                            "path": "img/46.png",
+                            "saved": true,
+                            "size": 5818
+                        },
+                        {
+                            "url": "https://pgpg8.com/47.png",
+                            "path": "img/47.png",
+                            "saved": true,
+                            "size": 5586
+                        },
+                        {
+                            "url": "https://pgpg8.com/48.png",
+                            "path": "img/48.png",
+                            "saved": true,
+                            "size": 6302
+                        },
+                        {
+                            "url": "https://pgpg8.com/49.png",
+                            "path": "img/49.png",
+                            "saved": true,
+                            "size": 5946
+                        },
+                        {
+                            "url": "https://pgpg8.com/50.png",
+                            "path": "img/50.png",
+                            "saved": true,
+                            "size": 6068
+                        },
+                        {
+                            "url": "https://pgpg8.com/51.png",
+                            "path": "img/51.png",
+                            "saved": true,
+                            "size": 5696
+                        },
+                        {
+                            "url": "https://pgpg8.com/52.png",
+                            "path": "img/52.png",
+                            "saved": true,
+                            "size": 5779
+                        },
+                        {
+                            "url": "https://pgpg8.com/53.png",
+                            "path": "img/53.png",
+                            "saved": true,
+                            "size": 5383
+                        },
+                        {
+                            "url": "https://pgpg8.com/54.png",
+                            "path": "img/54.png",
+                            "saved": true,
+                            "size": 5677
+                        },
+                        {
+                            "url": "https://pgpg8.com/55.png",
+                            "path": "img/55.png",
+                            "saved": true,
+                            "size": 5591
+                        },
+                        {
+                            "url": "https://pgpg8.com/56.png",
+                            "path": "img/56.png",
+                            "saved": true,
+                            "size": 6095
+                        },
+                        {
+                            "url": "https://pgpg8.com/57.png",
+                            "path": "img/57.png",
+                            "saved": true,
+                            "size": 6025
+                        },
+                        {
+                            "url": "https://pgpg8.com/58.png",
+                            "path": "img/58.png",
+                            "saved": true,
+                            "size": 6000
+                        },
+                        {
+                            "url": "https://pgpg8.com/59.png",
+                            "path": "img/59.png",
+                            "saved": true,
+                            "size": 5918
+                        },
+                        {
+                            "url": "https://pgpg8.com/60.png",
+                            "path": "img/60.png",
+                            "saved": true,
+                            "size": 6201
+                        },
+                        {
+                            "url": "https://pgpg8.com/61.png",
+                            "path": "img/61.png",
+                            "saved": true,
+                            "size": 6044
+                        },
+                        {
+                            "url": "https://pgpg8.com/62.png",
+                            "path": "img/62.png",
+                            "saved": true,
+                            "size": 6016
+                        },
+                        {
+                            "url": "https://pgpg8.com/63.png",
+                            "path": "img/63.png",
+                            "saved": true,
+                            "size": 6178
+                        },
+                        {
+                            "url": "https://pgpg8.com/64.png",
+                            "path": "img/64.png",
+                            "saved": true,
+                            "size": 6517
+                        },
+                        {
+                            "url": "https://pgpg8.com/65.png",
+                            "path": "img/65.png",
+                            "saved": true,
+                            "size": 6505
+                        },
+                        {
+                            "url": "https://pgpg8.com/66.png",
+                            "path": "img/66.png",
+                            "saved": true,
+                            "size": 5943
+                        },
+                        {
+                            "url": "https://pgpg8.com/67.png",
+                            "path": "img/67.png",
+                            "saved": true,
+                            "size": 5049
+                        },
+                        {
+                            "url": "https://pgpg8.com/68.png",
+                            "path": "img/68.png",
+                            "saved": true,
+                            "size": 5370
+                        },
+                        {
+                            "url": "https://pgpg8.com/69.png",
+                            "path": "img/69.png",
+                            "saved": true,
+                            "size": 5704
+                        },
+                        {
+                            "url": "https://pgpg8.com/70.png",
+                            "path": "img/70.png",
+                            "saved": true,
+                            "size": 6216
+                        },
+                        {
+                            "url": "https://pgpg8.com/71.png",
+                            "path": "img/71.png",
+                            "saved": true,
+                            "size": 5554
+                        },
+                        {
+                            "url": "https://pgpg8.com/72.png",
+                            "path": "img/72.png",
+                            "saved": true,
+                            "size": 5398
+                        },
+                        {
+                            "url": "https://pgpg8.com/73.png",
+                            "path": "img/73.png",
+                            "saved": true,
+                            "size": 5744
+                        },
+                        {
+                            "url": "https://pgpg8.com/74.png",
+                            "path": "img/74.png",
+                            "saved": true,
+                            "size": 6341
+                        },
+                        {
+                            "url": "https://pgpg8.com/75.png",
+                            "path": "img/75.png",
+                            "saved": true,
+                            "size": 6289
+                        },
+                        {
+                            "url": "https://pgpg8.com/76.png",
+                            "path": "img/76.png",
+                            "saved": true,
+                            "size": 6328
+                        },
+                        {
+                            "url": "https://pgpg8.com/77.png",
+                            "path": "img/77.png",
+                            "saved": true,
+                            "size": 5603
+                        },
+                        {
+                            "url": "https://pgpg8.com/78.png",
+                            "path": "img/78.png",
+                            "saved": true,
+                            "size": 34246
+                        },
+                        {
+                            "url": "https://pgpg8.com/79.png",
+                            "path": "img/79.png",
+                            "saved": true,
+                            "size": 4847
+                        },
+                        {
+                            "url": "https://pgpg8.com/80.png",
+                            "path": "img/80.png",
+                            "saved": true,
+                            "size": 6102
+                        },
+                        {
+                            "url": "https://pgpg8.com/81.png",
+                            "path": "img/81.png",
+                            "saved": true,
+                            "size": 6660
+                        },
+                        {
+                            "url": "https://pgpg8.com/82.png",
+                            "path": "img/82.png",
+                            "saved": true,
+                            "size": 5973
+                        },
+                        {
+                            "url": "https://pgpg8.com/83.png",
+                            "path": "img/83.png",
+                            "saved": true,
+                            "size": 6129
+                        },
+                        {
+                            "url": "https://pgpg8.com/84.png",
+                            "path": "img/84.png",
+                            "saved": true,
+                            "size": 5558
+                        },
+                        {
+                            "url": "https://pgpg8.com/85.png",
+                            "path": "img/85.png",
+                            "saved": true,
+                            "size": 6373
+                        },
+                        {
+                            "url": "https://pgpg8.com/86.png",
+                            "path": "img/86.png",
+                            "saved": true,
+                            "size": 5812
+                        },
+                        {
+                            "url": "https://pgpg8.com/87.png",
+                            "path": "img/87.png",
+                            "saved": true,
+                            "size": 6469
+                        },
+                        {
+                            "url": "https://pgpg8.com/88.png",
+                            "path": "img/88.png",
+                            "saved": true,
+                            "size": 6037
+                        },
+                        {
+                            "url": "https://pgpg8.com/89.png",
+                            "path": "img/89.png",
+                            "saved": true,
+                            "size": 6170
+                        },
+                        {
+                            "url": "https://pgpg8.com/90.png",
+                            "path": "img/90.png",
+                            "saved": true,
+                            "size": 5558
+                        },
+                        {
+                            "url": "https://pgpg8.com/91.png",
+                            "path": "img/91.png",
+                            "saved": true,
+                            "size": 5753
+                        },
+                        {
+                            "url": "https://pgpg8.com/92.png",
+                            "path": "img/92.png",
+                            "saved": true,
+                            "size": 5837
+                        },
+                        {
+                            "url": "https://pgpg8.com/93.png",
+                            "path": "img/93.png",
+                            "saved": true,
+                            "size": 5498
+                        },
+                        {
+                            "url": "https://pgpg8.com/94.png",
+                            "path": "img/94.png",
+                            "saved": true,
+                            "size": 6186
+                        },
+                        {
+                            "url": "https://pgpg8.com/95.png",
+                            "path": "img/95.png",
+                            "saved": true,
+                            "size": 5707
+                        },
+                        {
+                            "url": "https://pgpg8.com/96.png",
+                            "path": "img/96.png",
+                            "saved": true,
+                            "size": 5808
+                        },
+                        {
+                            "url": "https://pgpg8.com/19.png",
+                            "path": "img/19.png",
+                            "saved": true,
+                            "size": 5755
+                        },
+                        {
+                            "url": "https://pgpg8.com/20.png",
+                            "path": "img/20.png",
+                            "saved": true,
+                            "size": 6245
+                        },
+                        {
+                            "url": "https://pgpg8.com/3.png",
+                            "path": "img/3.png",
+                            "saved": true,
+                            "size": 5255
+                        },
+                        {
+                            "url": "https://pgpg8.com/00001.jpg",
+                            "path": "img/00001.jpeg",
+                            "saved": true,
+                            "size": 1779
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "alias": "pgpg8-com-fll1qzpt",
+    "info": {
+        "remark": [],
+        "title": "永久地址PG5200.COM",
+        "domain": "pgpg8.com",
+        "origin": "https://pgpg8.com",
+        "ip": "104.21.27.127",
+        "main": "index.html",
+        "url": "https://pgpg8.com/",
+        "totalSize": "706 kB",
+        "request": {
+            "headers": {
+                "accept": "text/html,*/*",
+                "accept-language": "zh-CN,zh;q=0.9",
+                "cache-control": "no-cache",
+                "cookie": "",
+                "referer": "https://pgpg8.com/",
+                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+                "x-scraper-website": "https://bazhan.wang/"
+            }
+        },
+        "response": {
+            "responseUrl": "https://pgpg8.com/",
+            "redirects": [],
+            "statusCode": 200,
+            "headers": {
+                "date": "Sun, 12 Feb 2023 18:31:08 GMT",
+                "content-type": "text/html",
+                "transfer-encoding": "chunked",
+                "connection": "close",
+                "last-modified": "Sun, 12 Feb 2023 10:16:21 GMT",
+                "vary": "Accept-Encoding,User-Agent",
+                "alt-svc": "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",
+                "x-turbo-charged-by": "LiteSpeed",
+                "cf-cache-status": "DYNAMIC",
+                "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=v8WATbYjAmZ%2FKCSZzGsl9naH1CZ4mDTMFPp3Yf1FVlI%2B5CrPf9k%2FrtkVjgmr7Ngu2AuR9TGwJwX3oWH7pTe9VgdV%2FhgioyDlIMSixw0N0PexcHeWdLUPr9GR2as%3D\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+                "nel": "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",
+                "server": "cloudflare",
+                "cf-ray": "798766468e683c0e-NRT"
+            }
+        },
+        "time": {
+            "start": "2023-02-12T18:31:08.492Z",
+            "end": "2023-02-12T18:31:10.504Z"
+        }
+    },
+    "options": {
+        "url": "https://pgpg8.com/",
+        "referer": "",
+        "cookies": "",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36",
+        "formatter": [],
+        "filenameGenerator": "byType"
+    }
+}
