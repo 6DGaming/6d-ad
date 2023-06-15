@@ -444,7 +444,7 @@
               {
                 label: 'Hash 28',
                 img: 'hash28',
-                src: 'https://dapp.6d.games/zh_CN?id=12&range=10---1000&type=1&from=web&' + this.b(),
+                src: 'https://dapp.6d.games/zh_CN?id=12&range=10---1000&type=1&from=toweb&' + this.b(),
                 is: '_blank',
                 ga: ['send', 'event', 'link', 'click', 'hash28']
               },
@@ -568,7 +568,7 @@
             iosLink: 'https://cdn.dowsvip.com/app/6dGame'  + '?' + this.b(),
             andLink: 'https://download.6d.games/6d01vip/6d01vip.apk'  + '?' + this.b(),
             uk: 'https://m.6d01.uk'  + '?' + this.b(),
-            vip: 'https://m.6d01.vip' + this.b()
+            vip: 'https://m.6d01.vip'
           }
         },
         methods: {
@@ -576,13 +576,15 @@
             // const u = navigator.userAgent;
             // const isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
             this.n(['send', 'event', 'link', 'click', 'AppDownLoad'],)
-            window.open(this.b().length > 2 ? this.uk : this.vip)
+            window.open(this.b().length > 0 ? this.uk : this.vip)
           },
           handleClick(src) {
             src && window.open(src)
           },
           b() {
-            return window.location.search.split('?')[1] || ''
+            var saaa = window.location.search.split('c=')[1];
+            var sear = saaa ? 'c=' + saaa : '';
+            return sear;
           },
           n( src) {
             // debugger
