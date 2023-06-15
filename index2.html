@@ -567,8 +567,8 @@
             ],
             iosLink: 'https://cdn.dowsvip.com/app/6dGame'  + '?' + this.b(),
             andLink: 'https://download.6d.games/6d01vip/6d01vip.apk'  + '?' + this.b(),
-            uk: 'https://m.6d01.uk'  + this.b(),
-            vip: 'https://m.6d01.vip'  + this.b()
+            uk: 'https://m.6d01.uk'  + '?' + this.b(),
+            vip: 'https://m.6d01.vip' + this.b()
           }
         },
         methods: {
@@ -576,13 +576,13 @@
             // const u = navigator.userAgent;
             // const isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
             this.n(['send', 'event', 'link', 'click', 'AppDownLoad'],)
-            window.open(this.b().length > 1 ? this.uk : this.vip)
+            window.open(this.b().length > 2 ? this.uk : this.vip)
           },
           handleClick(src) {
             src && window.open(src)
           },
           b() {
-            return window.location.search || ''
+            return window.location.search.split('?')[1] || ''
           },
           n( src) {
             // debugger
