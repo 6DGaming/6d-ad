@@ -444,7 +444,7 @@
               {
                 label: 'Hash 28',
                 img: 'hash28',
-                src: 'https://dapp.6d.games/zh_CN?id=12&range=10---1000&type=1&from=toweb&' + this.b(),
+                src: 'https://dapp.6d.games/zh_CN?id=12&range=10---1000&type=1&from=toweb&c=' + this.search,
                 is: '_blank',
                 ga: ['send', 'event', 'link', 'click', 'hash28']
               },
@@ -565,28 +565,50 @@
                 src: ''
               }
             ],
-            iosLink: 'https://cdn.dowsvip.com/app/6dGame'  + '?' + this.b(),
-            andLink: 'https://download.6d.games/6d01vip/6d01vip.apk'  + '?' + this.b(),
-            uk: 'https://m.6d01.uk'  + '?' + this.b(),
-            vip: 'https://m.6d01.vip'
+            iosLink: 'https://cdn.dowsvip.com/app/6dGame',
+            andLink: 'https://download.6d.games/6d01vip/6d01vip.apk',
+            uk: '/toRegister.html',
+            vip: 'https://m.6d01.vip',
+            hList: [
+              {
+                href: 'm.6d01.uk',
+                code:'GuHgn9G',
+                id: '16237172257'
+              },
+              {
+                href: 'm.pg8695.vip',
+                code:'60gtCfT',
+                id: '18488678695'
+              }
+              // ,
+              // {
+              //   href: 'localhost:8080',
+              //   code:'XXXXXXX',
+              //   id: '18488678695'
+              // }
+            ],
+            search: window.location.search.split('c=')[1],
+            c: 0,
           }
         },
         methods: {
           handleDownload() {
-            // const u = navigator.userAgent;
-            // const isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
-            this.n(['send', 'event', 'link', 'click', 'AppDownLoad'],)
-            window.open(this.b().length > 0 ? this.uk : this.vip)
-          },
-          handleClick(src) {
-            src && window.open(src)
-          },
-          b() {
-            var saaa = window.location.search.split('c=')[1];
-            var sear = saaa ? 'c=' + saaa : '';
-            return sear;
+            for (var i=0; i <= this.hList.length-1; i++) {
+              if (this.hList[i].code == this.search){
+                this.uk = '/toRegister.html';
+                this.uk = 'https://' + this.hList[i].href + this.uk + '?c=' + this.search;
+                this.c = 1;
+                break;
+              }
+            }
+            if (this.c === 1) {
+              window.open(this.uk)
+            } else {
+              window.open(this.vip)
+            }
           },
           n( src) {
+            // this.n(['send', 'event', 'link', 'click', 'AppDownLoad'],)
             // debugger
             // window.gtag(src);
             // gtat('send', 'event', '视频', '播放', 'hash28')
