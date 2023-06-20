@@ -322,7 +322,7 @@
               v-for="(item, index) in gameList1"
               :key="index"
             >
-              <!-- <a :href="item.src" :target="item.is=='_blank'?'_blank':''" v-if="item.ga" @click="n(item.ga)"> -->
+              <!-- <a :href="tgUrlitem.src" :target="item.is=='_blank'?'_blank':''" v-if="item.ga" @click="n(item.ga)"> -->
                 <a :href="item.src" :target="item.is=='_blank'?'_blank':''">
                 <img :src="`./img/game/${item.img}.png`" alt="" />
                 <span>{{ item.label }}</span>
@@ -412,7 +412,7 @@
               <img src="./img/game/left.png" alt="" class="ml5" />
             </div>
             <div class="contact">
-              <p>商务合作&nbsp;&nbsp;<a href="https://t.me/Anna147258" target="_blank"><span class="blue">这里</span></a></p>
+              <p>商务合作&nbsp;&nbsp;<a :href="tgUrl" target="_blank"><span class="blue">这里</span></a></p>
               <img src="./img/game/right.png" alt="" />
             </div>
           </div>
@@ -573,38 +573,49 @@
               {
                 href: 'm.6d01.uk',
                 code:'GuHgn9G',
-                id: '16237172257'
+                id: '16237172257',
+                tg: 'https://t.me/Anna147258'
               },
               {
                 href: 'm.pg8695.vip',
                 code:'60gtCfT',
-                id: '18488678695'
+                id: '18488678695',
+                tg: 'https://t.me/Decisive_war'
               }
               // ,
               // {
               //   href: 'localhost:8080',
               //   code:'XXXXXXX',
-              //   id: '18488678695'
+              //   id: '18488678695',
+              //   tg: 'https://t.me/Decisive_war'
               // }
             ],
+            tgUrl: 'https://t.me/Anna147258',
             search: window.location.search.split('c=')[1],
             c: 0,
           }
         },
+        mounted() {
+          this.defaultLink();
+        },
         methods: {
           handleDownload() {
-            for (var i=0; i <= this.hList.length-1; i++) {
-              if (this.hList[i].code == this.search){
-                this.uk = '/toRegister.html';
-                this.uk = 'https://' + this.hList[i].href + this.uk + '?c=' + this.search;
-                this.c = 1;
-                break;
-              }
-            }
             if (this.c === 1) {
               window.open(this.uk)
             } else {
               window.open(this.vip)
+            }
+          },
+          defaultLink() {
+            console.log(111)
+            for (var i=0; i <= this.hList.length-1; i++) {
+              if (this.hList[i].code == this.search){
+                this.uk = '/toRegister.html';
+                this.uk = 'https://' + this.hList[i].href + this.uk + '?c=' + this.search;
+                this.tgUrl = this.hList[i].tg
+                this.c = 1;
+                break;
+              }
             }
           },
           n( src) {
