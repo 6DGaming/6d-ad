@@ -566,7 +566,7 @@
             ],
             iosLink: 'https://cdn.dowsvip.com/app/6dGame',
             andLink: 'https://download.6d.games/6d01vip/6d01vip.apk',
-            uk: '/toRegister.html',
+            uk: 'https://m.6d.games/toRegister.html',
             vip: 'https://m.6d01.vip',
             hList: [
               {
@@ -606,13 +606,14 @@
             }
           },
           defaultLink() {
-            for (var i=0; i <= this.hList.length-1; i++) {
-              if (this.hList[i].code == this.search){
-                this.uk = '/toRegister.html';
-                this.uk = 'https://' + this.hList[i].href + this.uk + '?c=' + this.search;
-                this.tgUrl = this.hList[i].tg
-                this.c = 1;
-                break;
+            if (this.search) {
+              this.c = 1
+              this.uk = this.uk + '?c=' + this.search;
+              for (var i=0; i <= this.hList.length-1; i++) {
+                if (this.hList[i].code == this.search){
+                  this.tgUrl = this.hList[i].tg
+                  break;
+                }
               }
             }
           },
