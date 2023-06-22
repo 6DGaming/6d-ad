@@ -570,17 +570,29 @@
             vip: 'https://m.6d01.vip',
             hList: [
               {
-                href: 'm.6d01.uk',
+                href: '6d01.uk',
                 code:'GuHgn9G',
                 id: '16237172257',
                 tg: 'https://t.me/Anna147258'
               },
               {
-                href: 'm.pg8695.vip',
+                href: 'pg8695.vip',
                 code:'60gtCfT',
                 id: '18488678695',
                 tg: 'https://t.me/Decisive_war'
-              }
+              },
+              {
+                href: '6d4182.vip',
+                code:'V7A40gA',
+                id: '18879944182',
+                tg: 'https://t.me/Anna147258'
+              },
+              {
+                href: '6d4013.vip',
+                code:'DUoghtW',
+                id: '19961204013',
+                tg: 'https://t.me/Anna147258'
+              },
               // ,
               // {
               //   href: 'localhost:8080',
@@ -610,7 +622,7 @@
               this.c = 1
               this.uk = this.uk + '?c=' + this.search;
               for (var i=0; i <= this.hList.length-1; i++) {
-                if (this.hList[i].code == this.search){
+                if (this.search.indexOf(this.hList[i].code.indexOf)){
                   this.tgUrl = this.hList[i].tg
                   break;
                 }
