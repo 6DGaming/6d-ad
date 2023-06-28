@@ -265,6 +265,9 @@
         .text-box1 .contact p{
           border: 0 none;
         }
+        .text-box1 .contact p a{
+          color: #fff;
+        }
         .text-box1 .contact .mr5 {
             margin-right: 5px;
         }
@@ -412,8 +415,11 @@
               <img src="./img/game/left.png" alt="" class="ml5" />
             </div>
             <div class="contact">
-              <p>商务合作&nbsp;&nbsp;<a :href="tgUrl" target="_blank"><span class="blue">这里</span></a></p>
+              <p>
+                商务合作&nbsp;&nbsp;
+                <p>商务合作&nbsp;&nbsp;<a :href="tgUrl" target="_blank"><span class="blue">这里</span></a></p>
               <img src="./img/game/right.png" alt="" />
+              </p>
             </div>
           </div>
         </div>
@@ -571,45 +577,69 @@
             vip: 'https://m.6d01.vip',
             hList: [
               {
+                no:'1',
                 href: '6d01.uk',
                 code:'GuHgn9G',
                 id: '16237172257',
-                tg: 'https://t.me/Anna147258',
-                qq: 'http://wpa.qq.com/msgrd?v=3&uin=4655507&site=qq&menu=yes'
-                // mqqwpa://im/chat?chat_type=wpa&uin=479858761&version=1&src_type=web&web_src=oicqzone.com"
+                tg: '',
+                qq: '4655507'
               },
               {
+                no:'2',
                 href: 'pg8695.vip',
                 code:'60gtCfT',
                 id: '18488678695',
-                tg: 'https://t.me/Decisive_war',
+                tg: 'Decisive_war',
                 qq: ''
               },
               {
+                no:'3',
                 href: '6d4182.vip',
                 code:'V7A40gA',
                 id: '18879944182',
-                tg: 'https://t.me/Anna147258',
+                tg: '',
                 qq: '1720218510'
               },
               {
+                no:'4',
                 href: '6d4013.vip',
                 code:'DUoghtW',
                 id: '19961204013',
-                tg: 'https://t.me/Anna147258',
+                tg: '',
                 qq: '1207392383'
+              },
+              {
+
+                no:'5',
+                href: '6d002.vip',
+                code:'74CCmmo',
+                id: '13901016699',
+                tg: 'dabao123888',
+                qq: ''
+              },
+              {
+                no:'6',
+                href: '6d003.vip',
+                code:'VWdkAWB',
+                id: '13801017799',
+                tg: 'yangmmt ',
+                qq: ''
               }
-              // ,
-              // {
-              //   href: 'localhost:8080',
-              //   code:'XXXXXXX',
-              //   id: '18488678695',
-              //   tg: 'https://t.me/Decisive_war'
-              // }
+                // ,
+                // {
+                //   href: 'localhost:8080',
+                //   code:'XXXXXXX',
+                //   id: '18488678695',
+                //   tg: 'Decisive_war',
+                // }
             ],
-            tgUrl: 'https://t.me/Anna147258',
+            tgUrl: '',
             search: window.location.search.split('c=')[1],
             c: 0,
+            tgD:'Anna147258',
+            qqD:'https://t.me/',
+            qqM:'tencent://message/?uin=',
+            qqP:'mqqwpa://im/chat?chat_type=wpa&uin=',
           }
         },
         mounted() {
@@ -624,16 +654,32 @@
             }
           },
           defaultLink() {
+            this.tgUrl = this.qqD + this.tgD;
             if (this.search) {
               this.c = 1
               this.uk = this.uk + '?c=' + this.search;
               for (var i=0; i <= this.hList.length-1; i++) {
-                if (this.search == this.hList[i].code){
-                  this.tgUrl = this.hList[i].tg
+                var code = this.hList[i].code
+                if (this.search == code){
+                  if (this.hList[i].tg) {
+                    this.tgUrl = this.qqD + this.hList[i].tg;
+                  }
+                  if (this.hList[i].qq){
+                    var mb = this.isMobileDevice()
+                      if(mb) {
+                        this.tgUrl = this.qqP +  this.hList[i].qq;
+                      } else {
+                        this.tgUrl = this.qqM +  this.hList[i].qq;
+                      }
+                  }
+                  
                   break;
                 }
               }
             }
+          },
+          isMobileDevice () {
+            return (typeof window.orientation !== "undefined") || (navigator.userAgent.indexOf('IEMobile') !== -1);
           },
           n( src) {
             // this.n(['send', 'event', 'link', 'click', 'AppDownLoad'],)
